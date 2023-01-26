@@ -1,0 +1,55 @@
+
+1.	Uzraksti programmu kas paņem divus skaitļus un:
+a)	Atrod maksimālo un minimālo starp diviem skaitļiem
+b)	Pārbauda skaitļus vai tie ir negatīvi
+c)	Pārbauda vai skaitlis ir pāra vai nepāra
+
+
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b;
+	cin >> a >> b;
+	if (a > b) cout << "a-max,b-min "<<endl;
+	else  cout << "b-max,a-min" << endl;
+
+	if (a < 0) cout << "a - negative" << endl;
+	else cout << "a - positive" << endl;
+	if (b < 0) cout << "b - negative" << endl;
+	else cout << "b - positive" << endl;
+
+	if (a % 2==0) cout << "a - para" << endl;
+	else cout << "a - nepara" << endl;
+
+	if (b % 2==0) cout << "b - para" << endl;
+	else cout << "b - nepara" << endl;
+}
+
+
+2. Uzraksti programmu kas palīdz izvadīt atzīmi balstotos uz ievadītiem procentiem. Lieto dotos noteikumus vērtēšanai.
+
+ 
+#include <iostream>
+using namespace std;
+int main() {
+	int a;
+	cin >> a;
+	if (a >= 90 && a <= 100) {
+		cout << "A";
+	}
+	if (a >= 80 && a <= 89) {
+		cout << "B";
+	}
+	if (a >= 70 && a <= 79) {
+		cout << "C";
+	}
+	if (a >= 60 && a <= 69) {
+		cout << "D";
+	}
+	if (a >= 40 && a <= 49) {
+		cout << "E";
+	}
+	if (a >= 0 && a <= 39) {
+		cout << "F";
+	}
+}
