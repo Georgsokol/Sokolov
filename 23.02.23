@@ -1,0 +1,118 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+int main()
+{
+	////vector <int> num{1,2,3,1,2};
+	////cout << num[0] << num[1] << num[2] << num[3] << num[4];
+	////if (num[0]==1) cout << "1 element has a one" << endl;
+	////if (num[1]==1) cout << "2 element has a one" << endl;
+	////if (num[2]==1) cout << "3 element has a one" << endl;
+	////if (num[3]==1) cout << "4 element has a one" << endl;
+ ////   if (num[4]==1) cout << "5 element has a one" << endl;
+
+	//if (num[0]==4) cout << "1 element has a four" << endl;
+	//if (num[1]==4) cout << "2 element has a four" << endl;
+	//if (num[2]==4) cout << "3 element has a four" << endl;
+	//if (num[3]==4) cout << "4 element has a four" << endl;
+	//if (num[4]==4) cout << "5 element has a four" << endl;*/
+
+
+	//*vector <string> country{"USA","UK","China","India","Canada","Australia"};
+	//vector <string> code{"+1","+44","+86","+91","+1","+61"};
+	//string num, cod;
+	//cout << "1 tel, 2 kods" << endl;
+	//cin>>num>>cod;
+	//if(code[0]==cod) cout<< country[0];
+	//if(code[1]==cod) cout<< country[1];
+	//if(code[2]==cod) cout<< country[2];
+	//if(code[3]==cod) cout<< country[3];
+	//if(code[4]==cod) cout<< country[4];
+	//if(code[5]==cod) cout<< country[5];
+	//cout<<cod<<num;*/
+
+
+	/*vector <int> num{3,8,7,4};
+	vector <string> name{"Anna","Antons","Vlads","Artemijs"};
+	cout << "atzime"<<endl;
+	int atz;
+	cin >> atz;
+	if(num[0]==atz) cout << name[0];
+	if(num[1]==atz) cout << name[1];
+	if(num[2]==atz) cout << name[2];
+	if(num[3]==atz) cout << name[3];*/
+
+
+	/*vector <int> num{2, 3, 5, 7};
+	cout << (num[0]*num[0]) << endl;
+	cout << (num[1]*num[1]) << endl;
+	cout << (num[2]*num[2]) << endl;
+	cout << (num[3]*num[3]) << endl;*/
+
+	/*vector <string> svetki{"Halovini","Lačpleša diena","Neatkaribas diena"};
+	vector <string> dat{"31. okt.","11.nov.","18.nov."};
+	string atb;
+	cout << "Ja vai ne?";
+	cin >> atb;
+	if(atb=="Ja") cout << svetki[0] << dat[0] << endl << svetki[1] << dat[1]<< endl << svetki[2] << dat[2]<<endl;
+	else cout << "Goodbye!"<<endl;*/
+
+	/*vector <int> time{-1,-6,-7,-10,-40,0,0,+10,+2,+5};
+	int i=0;
+	if(time[0]>0) i++;
+	if(time[1]>0) i++;
+	if(time[2]>0) i++;
+	if(time[3]>0) i++;
+	if(time[4]>0) i++;
+	if(time[5]>0) i++;
+	if(time[6]>0) i++;
+	if(time[7]>0) i++;
+	if(time[8]>0) i++;
+	if(time[9]>0) i++;
+	cout << i;*/
+
+
+	/*vector <int> num{16,4,33,8};
+	int atb;
+	cout << num[0] << num[1] << num[2] << num[3]<<endl;
+	cout << "enter number"<< endl;
+	cin >> atb;
+
+	if (num[0]==atb) cout << "tavs cipars ir saraksta" << endl;
+	if (num[1]==atb) cout << "tavs cipars ir saraksta" << endl;
+	if (num[2]==atb) cout << "tavs cipars ir saraksta" << endl;
+	if (num[3]==atb) cout << "tavs cipars ir saraksta" << endl;
+
+	if(num[0]!=atb&&num[2]!=atb&&num[3]!=atb&&num[1]!=atb)  cout << "tada cipara nav saraksta";*/
+
+
+	/*vector <int> num{2,4,6,8};
+	std::cout << num[0]*num[0]*num[0] << endl;
+	std::cout << num[1]*num[1]*num[1] << endl;
+	std::cout << num[2]*num[2]*num[2] << endl;
+	std::cout << num[3]*num[3]*num[3] << endl;*/
+
+	//std::cout << "ievadi skaitli" << endl;
+	//int atb;
+	//cin >> atb;
+	//if (atb==num[0]) std::cout << "tavs sk ir para un mazaks par 10" << endl;
+ //   if (atb==num[1]) std::cout << "tavs sk ir para un mazaks par 10" << endl;
+ //   if (atb==num[2]) std::cout << "tavs sk ir para un mazaks par 10" << endl;
+ //   if (atb==num[3]) std::cout << "tavs sk ir para un mazaks par 10" << endl;
+ //   
+	//if(num[0]!=atb&&num[2]!=atb&&num[3]!=atb&&num[1]!=atb) std:: cout << "tads tavs sk nav para vai ir lielaks par 10";
+
+
+//vector <string> hz{"spaniels","jorks","vācu aitas suns","pūdelis"};
+//	vector <string> name{"Bobik","Jorik","Bobs","Robs"};
+//	string  name1;
+//	std::cout << "name" << endl;
+//	cin>>name1;
+//	if(name[0]==name1) std:: cout<< hz[0];
+//	if(name[1]==name1) std:: cout<< hz[1];
+//	if(name[2]==name1) std:: cout<< hz[2];
+//	if(name[3]==name1) std:: cout<< hz[3];
+
+
+
+}
